@@ -18,6 +18,7 @@
   <preference name="BackupWebStorage" value="none"/>
   <preference name="SplashScreen" value="screen"/>
   <feature name="StatusBar">
+  <access origin="tel:*" launch-external="yes" />
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
   <platform name="android">
